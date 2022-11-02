@@ -1,0 +1,14 @@
+{
+  "name": "multiplayer-game-js-firebase",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "learning",
+  "workspaceFolder": "/code",
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "oderwat.indent-rainbow"
+  ]
+}

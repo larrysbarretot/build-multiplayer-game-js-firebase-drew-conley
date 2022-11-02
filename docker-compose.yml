@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  learning:
+    container_name: multiplayer-game-js-firebase
+    image: node:16.17.0-alpine3.16
+    volumes:
+      - .:/code
+    ports:
+      - 5500:5500
+    tty: true
